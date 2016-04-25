@@ -22,7 +22,6 @@ html {
 h1 {
   display: inline-block;
   margin-bottom: 0;
-  color: #333132;
 }
 
 ul {
@@ -32,7 +31,7 @@ ul {
 li a{
   display: inline-block;
   text-decoration: none;
-  color: #000;
+  color: #333132;
 }
 
 .nav li a {
@@ -108,6 +107,31 @@ li a:hover {
 .button:hover {
   background-color: #427084;
   color: #333132;
+}
+
+.hours {
+  background-color: #427084;
+  padding: 0.5rem;
+  color: #ded9d4;
+}
+
+.hours ul {
+  padding: 0;
+}
+
+.menu {
+  background-color: #fdbe15;
+  padding: 0.5rem;
+}
+
+.menu ul {
+  padding: 0;
+}
+
+.faq {
+  background-color: #427084;
+  padding: 0.5rem;
+  color: #ded9d4;
 }
 
 @media only screen and (min-width: 25em) {
