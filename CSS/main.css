@@ -15,6 +15,10 @@ html {
   color: #333132;
 }
 
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
 h1 {
   display: inline-block;
   margin-bottom: 0;
@@ -52,6 +56,17 @@ li a:hover {
 
 .link-cards ul{
   padding: 0;
+}
+
+.link-cards li {
+  display: inline-block;
+  max-width: 20em;
+  padding: 3em 1em;
+  background-color: #febe10;
+  margin: 0.3rem;
+  border-radius: 5px;
+  text-align: center;
+  width: 45%;
 }
 
 .nav ul {
