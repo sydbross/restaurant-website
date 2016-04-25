@@ -16,7 +16,7 @@ html {
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 h1 {
@@ -28,7 +28,7 @@ ul {
   margin-top: 0;
 }
 
-li a{
+li a {
   display: inline-block;
   text-decoration: none;
   color: #333132;
@@ -39,6 +39,7 @@ li a{
   color: #fff;
   padding: 0.5rem;
 }
+
 .nav li {
   display: inline;
 }
@@ -51,21 +52,6 @@ li a{
 li a:hover {
   color: #427084;
   list-style-type: none;
-}
-
-.link-cards ul{
-  padding: 0;
-}
-
-.link-cards li {
-  display: inline-block;
-  max-width: 20em;
-  padding: 3em 1em;
-  background-color: #febe10;
-  margin: 0.3rem;
-  border-radius: 5px;
-  text-align: center;
-  width: 45%;
 }
 
 .nav ul {
@@ -99,14 +85,34 @@ li a:hover {
 
 .button {
   text-decoration: none;
-  color: #fff;
   background-color: #fdbe15;
   padding: 0.5rem;
+  color: #333132;
 }
 
 .button:hover {
   background-color: #427084;
   color: #333132;
+}
+
+.link-cards ul {
+  padding: 0;
+}
+
+.link-cards li {
+  display: inline-block;
+  max-width: 20em;
+  padding: 3em 1em;
+  background-color: #febe10;
+  margin: 0.3rem;
+  border-radius: 5px;
+  text-align: center;
+  width: 45%;
+}
+
+.link-cards li:hover {
+  background-color: #333132;
+  color: #febe10;
 }
 
 .hours {
@@ -126,12 +132,44 @@ li a:hover {
 
 .menu ul {
   padding: 0;
+  list-style-type: none;
 }
 
 .faq {
   background-color: #427084;
   padding: 0.5rem;
   color: #ded9d4;
+}
+
+.faq dd {
+  margin: 0;
+  color: #fdbe15;
+}
+
+.contact {
+  background-color: #fdbe15;
+  padding: 0.5rem;
+}
+
+.contact ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1em;
+}
+
+footer img {
+  float: right;
+  display: block;
+  margin: 0.25em;
+}
+
+footer img:first-child {
+
 }
 
 @media only screen and (min-width: 25em) {
